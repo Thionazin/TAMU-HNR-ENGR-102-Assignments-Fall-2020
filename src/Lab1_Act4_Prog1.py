@@ -1,3 +1,8 @@
+# Name: Senhe Hao
+# Assignment: Lab1B Part 1
+# Class: ENGR102-236
+# An aggie does not lie, cheat, nor steal, nor tolerate those who do.
+
 # Imports the math
 from math import *
 
@@ -17,4 +22,4 @@ print('The Reynolds number for a fluid with velocity of 100m/s and a kinematic v
 print('The final production rate of a well after 20 days with an initial production rate of 100 barrels a day and an initial decline rate of 2 barrels a day and hyperbolic constant of 0.8:', (100)/(pow(1 + (0.8*2*20),(1/0.8))), 'Units of barrels per day at day 20\n')
 
 # This line uses the mohr coloumb failure criterion to calculate and print the sheer stress applied to a material when a normal stress of 20 lbf/in^2 is applied to a material with cohesion of 2 lbf/in^2 and an angle of internal friction of 35 degrees.
-print('The sheer stress when a normal stress of 20lbs/in^2 is applied to a material with cohesion of 2 lbf/in^2 and an angle of internal friction of 35 degrees is:', 20*tan(35)+2, 'lbf/in^2')
+print('The sheer stress when a normal stress of 20lbs/in^2 is applied to a material with cohesion of 2 lbf/in^2 and an angle of internal friction of 35 degrees is:', 20*tan(radians(35))+2, 'lbf/in^2')
