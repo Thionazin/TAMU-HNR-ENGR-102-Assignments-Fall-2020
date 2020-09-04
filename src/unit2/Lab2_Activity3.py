@@ -12,7 +12,7 @@ def distance_from(value):
 
 # Function for linear interpolating the distance from the start between t=30 to t=45
 def interpolate(value):
-    # Returns the
+    # Returns the distance travelled by using linear interpolation.
     return 50 + ((565 / 15) * (value-30))  # Meters
 
 

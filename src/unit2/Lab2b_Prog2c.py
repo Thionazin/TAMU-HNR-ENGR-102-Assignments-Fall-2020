@@ -21,9 +21,9 @@ def main():
     init_y = 3  # m
     init_z = 7  # m
     initial_time = 13  # seconds
-    iter_value = 20
-    iter_max = 50
-    iter_number = (iter_max - iter_value) / 4
+    iter_value = 20  # seconds
+    iter_max = 50  # seconds
+    iter_number = (iter_max - iter_value) / 4  # interval in seconds
     # While loop that terminates when iter_value passes 50
     while(iter_value <= iter_max):
         # Prints the interpolation using the variables defined above
