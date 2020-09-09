@@ -1,4 +1,8 @@
-# Shortest steps
+# Name: Senhe Hao
+# Assignment: Lab1B Part 1
+# Class: ENGR102-236
+# An aggie does not lie, cheat, nor steal, nor tolerate those who do.
+
 x = 1
 z = 0
 z += x
