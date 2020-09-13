@@ -8,7 +8,7 @@
 def main():
     print('This converts Miles per hour to Miles per seconds. Please enter a number in mph which gets converted to mps.')  # Print statement
     mph = input()  # In Miles per hour
-    print(mph, 'Miles per hour is equal to', (mph/3600), 'Miles per second')  # Output print statement
+    print(mph, 'Miles per hour is equal to', (int(mph)*0.44704), 'Miles per second')  # Output print statement
 
 
 # If this file is run, call main.

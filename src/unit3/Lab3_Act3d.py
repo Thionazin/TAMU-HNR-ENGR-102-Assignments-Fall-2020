@@ -15,8 +15,11 @@ def main():
     # Inputs
     print('Input how many days later')
     days = input()  # Days
+    print('Input initial production rate')
     init_prod_rate = input()  # Barrels a day
+    print('Input initial decline rate')
     init_decline_rate = input()  # Barrels a day
+    print('Input hyperbolic constant')
     hyperbolic_constant = input()  # No unit
     # Calculation and print statement for the final answer.
     print(

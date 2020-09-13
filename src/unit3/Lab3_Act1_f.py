@@ -8,7 +8,7 @@
 def main():
     print('This converts fahrenheit to celsius. Please enter a number in fahrenheit which gets converted to celsius.')  # Print statement
     fahrenheit = input()  # In fahrenheit
-    print(fahrenheit, 'Fahrenheit is equal to', (fahrenheit-32)/1.8, 'Celsius')  # Output print statement
+    print(fahrenheit, 'Fahrenheit is equal to', (int(fahrenheit)-32)/1.8, 'Celsius')  # Output print statement
 
 
 # If this file is run, call main.
