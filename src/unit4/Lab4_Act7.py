@@ -11,11 +11,11 @@ import math
 def main():
     # Reads in input
     print('Please input A.')
-    a = float(input())
+    a = int(input())
     print('Input B')
-    b = float(input())
+    b = int(input())
     print('Input C')
-    c = float(input())
+    c = int(input())
 
     # Checks if A is zero
     if a == 0:
