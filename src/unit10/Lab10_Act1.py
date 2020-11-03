@@ -1,5 +1,5 @@
 # Name: Senhe Hao
-# Assignment: Lab 9 part 3
+# Assignment: Lab 10 part 1
 # Class: ENGR102-236
 # An aggie does not lie, cheat, nor steal, nor tolerate those who do
 
@@ -19,9 +19,12 @@ def main():
     print(C, "\n")
     D = numpy.array([[1], [2], [3]])
     print(D, "\n")
+    # Multiply them
     E = A @ B @ C
     print(E, "\n")
+    # Transposed E
     print(E.transpose(), "\n")
+    # Solved Ex=D
     print(numpy.linalg.solve(E, D))
 
 
