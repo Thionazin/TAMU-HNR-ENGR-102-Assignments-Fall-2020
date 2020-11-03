@@ -21,7 +21,7 @@ def main():
     print(D, "\n")
     E = A @ B @ C
     print(E, "\n")
-    print(E.transpose())
+    print(E.transpose(), "\n")
     print(numpy.linalg.solve(E, D))
 
 
